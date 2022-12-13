@@ -1,5 +1,5 @@
 {
-  "name": "@wanted/web",
+  "name": "@wanted/admin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --project ./tsconfig.json --noEmit",
-    "lint-fix": "eslint . --config ../../.eslintrc.js --ext .ts,.tsx --fix"
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
   },
   "dependencies": {
     "@types/node": "18.11.11",
